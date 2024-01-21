@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import { ProfileView } from './profileView'
 
 export default function Profile() {
   return (
@@ -15,6 +15,9 @@ export default function Profile() {
             Logout
           </a>
         </div>
+      </div>
+      <div>
+        <ProfileView />
       </div>
     </main>
   )
