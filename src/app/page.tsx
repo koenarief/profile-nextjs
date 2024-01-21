@@ -1,29 +1,7 @@
-//'use client'
-
 import Image from 'next/image'
 import Link from 'next/link'
-//import { useState, useEffect } from 'react'
-//
-//function setToken(userToken) {
-//  sessionStorage.setItem('token', JSON.stringify(userToken))
-//}
-//
-//function getToken() {
-//  const tokenString = sessionStorage.getItem('token')
-//  const userToken = JSON.parse(tokenString)
-//  return userToken?.token
-//}
-//
-export default function Home() {
-//  const token = getToken()
 
-//  useEffect(() => {
-//    setToken({'token': '998877'})
-//  })
-//
-//  if(!token) {
-//    return <Login setToken={setToken} />
-//  }
+export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
